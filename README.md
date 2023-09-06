@@ -29,7 +29,7 @@ as their values are used to determine the path of the log files "LOGPATH/logs/te
    ```
    
 #### Notes:    
-1. The password is `root` and the header value is `root:root` encoded in Base64.
+1. The password is `root` BCrypt-hashed and the header value is `root:root` encoded in Base64.
 2. You'll have to provide the header value in the `Authorization` header of the requests that you send to the APIs:
 ![img.png](Basic%20Autorization%20Header.png)
 
